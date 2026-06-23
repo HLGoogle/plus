@@ -1,0 +1,289 @@
+<!--
+文件命名必须是 Bindings.xml，文件必须放在插件根目录下
+"keystate" 为内置变量：
+1.当按下绑定按键时，该变量值为 "down"
+2.当放开绑定按键时，该变量值为 "up"（只有当 runOnUp="true" 时，"up" 才可见）
+-->
+<Bindings>
+    <Binding name="BUTTON_MAIN_COMMAND_FOLLOW" runOnUp="true" header="BUTTON_MAIN">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_FOLLOW,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_FOLLOW.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_COMMAND_FOLLOW_ONLY" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_FOLLOW_ONLY,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_FOLLOW_ONLY.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_COMMAND_STOP_FULLY" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_STOP_FULLY,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_STOP_FULLY.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_COMMAND_STANDSTILL" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_STANDSTILL,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_STANDSTILL.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_COMMAND_NO_GOSSIP" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_NO_GOSSIP,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_NO_GOSSIP.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_HIDE" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_HIDE,
+        NetherBot.BUTTON_MAIN_TABLE.HIDE.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_SHOW" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_SHOW,
+        NetherBot.BUTTON_MAIN_TABLE.SHOW.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_RECALL" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_RECALL,
+        NetherBot.BUTTON_MAIN_TABLE.RECALL.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_RECALL_TELEPORT" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_RECALL_TELEPORT,
+        NetherBot.BUTTON_MAIN_TABLE.RECALL_TELEPORT.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_COMMAND_WALK" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_WALK,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_WALK.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_COMMAND_UNBIND" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_UNBIND,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_UNBIND.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_COMMAND_REBIND" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_COMMAND_REBIND,
+        NetherBot.BUTTON_MAIN_TABLE.COMMAND_REBIND.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_RECALL_SPAWNS" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_RECALL_SPAWNS,
+        NetherBot.BUTTON_MAIN_TABLE.RECALL_SPAWNS.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_INFO" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_INFO,
+        NetherBot.BUTTON_MAIN_TABLE.INFO.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_KILL" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_KILL,
+        NetherBot.BUTTON_MAIN_TABLE.KILL.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_MAIN_VEHICLE_EJECT" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_MAIN_VEHICLE_EJECT,
+        NetherBot.BUTTON_MAIN_TABLE.VEHICLE_EJECT.ICON,
+        keystate
+        )
+    </Binding>
+
+    <Binding name="BUTTON_CAST_SPELL_WARRIOR_J_J" runOnUp="true" header="BUTTON_CAST_SPELL_WARRIOR">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_WARRIOR_J_J,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.WARRIOR.J_J.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_WARRIOR_Y_H" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_WARRIOR_Y_H,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.WARRIOR.Y_H.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_B_H_Z_S" runOnUp="true" header="BUTTON_CAST_SPELL_PALADIN">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_B_H_Z_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.B_H_Z_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_Z_J_Z_S" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_Z_J_Z_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.Z_J_Z_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_X_S_Z_S" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_X_S_Z_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.X_S_Z_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_Z_Y_F_Y" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_Z_Y_F_Y,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.Z_Y_F_Y.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_S_G_D_B" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_S_G_D_B,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.S_G_D_B.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_Q_X_L_L_Z_F" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_Q_X_L_L_Z_F,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.Q_X_L_L_Z_F.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_Q_X_Z_H_Z_F" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_Q_X_Z_H_Z_F,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.Q_X_Z_H_Z_F.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_Q_X_W_Z_Z_F" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_Q_X_W_Z_Z_F,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.Q_X_W_Z_Z_F.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_Q_X_B_H_Z_F" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_Q_X_B_H_Z_F,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.Q_X_B_H_Z_F.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PALADIN_J_S" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PALADIN_J_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PALADIN.J_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_HUNTER_W_D" runOnUp="true" header="BUTTON_CAST_SPELL_HUNTER">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_HUNTER_W_D,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.HUNTER.W_D.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_ROGUE_J_H_J_Q" runOnUp="true" header="BUTTON_CAST_SPELL_ROGUE">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_ROGUE_J_H_J_Q,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.ROGUE.J_H_J_Q.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PRIEST_Y_H_D_Y" runOnUp="true" header="BUTTON_CAST_SPELL_PRIEST">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PRIEST_Y_H_D_Y,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PRIEST.Y_H_D_Y.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PRIEST_P_F_S" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PRIEST_P_F_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PRIEST.P_F_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_PRIEST_F_H_S" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_PRIEST_F_H_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.PRIEST.F_H_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_DEATH_KNIGHT_K_L" runOnUp="true" header="BUTTON_CAST_SPELL_DEATH_KNIGHT">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_DEATH_KNIGHT_K_L,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.DEATH_KNIGHT.K_L.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_SHAMAN_X_Z_Z_H" runOnUp="true" header="BUTTON_CAST_SPELL_SHAMAN">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_SHAMAN_X_Z_Z_H,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.SHAMAN.X_Z_Z_H.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_MAGE_H_L_S" runOnUp="true" header="BUTTON_CAST_SPELL_MAGE">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_MAGE_H_L_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.MAGE.H_L_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_MAGE_M_F_Y_Z" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_MAGE_M_F_Y_Z,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.MAGE.M_F_Y_Z.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_MAGE_M_F_Z_X" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_MAGE_M_F_Z_X,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.MAGE.M_F_Z_X.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_DRUID_F_S" runOnUp="true" header="BUTTON_CAST_SPELL_DRUID">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_DRUID_F_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.DRUID.F_S.ICON,
+        keystate
+        )
+    </Binding>
+    <Binding name="BUTTON_CAST_SPELL_DRUID_Q_S_H_S" runOnUp="true">
+        NetherBot:BindingButtonClick(
+        NetherBot.BUTTON_CAST_SPELL_DRUID_Q_S_H_S,
+        NetherBot.BUTTON_CAST_SPELL_TABLE.DRUID.Q_S_H_S.ICON,
+        keystate
+        )
+    </Binding>
+</Bindings>

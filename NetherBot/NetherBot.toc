@@ -1,0 +1,25 @@
+## Interface: 30300
+## Title: NetherBot
+## Author: NetherstormX & askvod & 玉素奴香 & lmzml
+## Version: NetherBot-NPCBots
+## Notes-zhCN: 机器人控制工具
+## OptionalDeps: LibStub, CallbackHandler-1.0, LibSharedMedia-3.0
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+
+G.lua
+Core.lua
+Init.lua
+Frames\Title.lua
+Frames\Main.lua
+Frames\GameMaster.lua
+Frames\Lookup.lua
+Frames\CastSpell.lua
+Frames\Distance.lua
+Frames\Admin.lua
+Frames\BuildBot.lua
+Frames\BuildBots.lua
+Frames\BuildBotsPinyin.lua
+Frames\Binding.lua
