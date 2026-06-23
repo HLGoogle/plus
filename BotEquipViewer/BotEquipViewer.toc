@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: 卡总服专用机器人装备显示插件
+## Notes: 在角色面板右侧添加机器人装备显示窗口
+## Author: YourName
+## Version: 1.1
+## SavedVariablesPerCharacter: BotEquipViewerDB
+
+BotEquipViewer.lua
